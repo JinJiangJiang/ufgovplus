@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+/* 自定义出错提示框相关样式 */
+.tooltiptable {margin:3px;}
+.topleft,
+.topcenter, 
+.topright, 
+.bodyleft,
+.tooltipcontent,
+.bodyright, 
+.footerleft,
+.footercenter,
+.footerright {
+	height:0px !important;
+	background-image:url(../images/tooltipbox.png) !important; 
+	background-position:left top !important;
+	background-repeat:no-repeat !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.corner {
+	font-size:1px !important;
+	height:12px !important;
+	line-height:1px !important;
+	width:12px !important;
+}
+.topcenter {
+	background-position:center top !important;
+}
+
+.tooltipcontent {
+	/*color:#757168;*/
+	min-width:20px;
+	color:#FF4242 !important;
+	font-family:Tahoma,SimSun,Verdana,sans-serif !important;
+	font-size:12px !important;
+	line-height:15px !important;
+	height:15px !important;
+	padding:3px 0 1px 1px !important;
+	text-align:justify !important;
+}
+.bodyright {
+	background-position:right center !important;
+}
+.footerleft {
+	background-position:left bottom !important;
+}
+.footercenter {
+	background-position:center bottom !important;
+}
+.footerright {
+	background-position:right bottom !important;
+}
+.tooltipcontent {
+	background-position:center center !important;
+}
+.tooltipsuccess {
+	margin-left:4px;
+	height: 16px;
+	background: url(../images/reg_icons.png) no-repeat -86px -134px;
+	background-position: -80px 0;
+}
+.tooltiperror {
+	margin-left:4px;
+	height: 16px;
+	background: url(../images/reg_icons.png) no-repeat -86px -149px;
+	background-position: -80px -24px;
+}
+.bodyleft {
+	background-position:left center !important;
+}
+.tooltipfang {
+	background-image:url(../images/Callouts.png)!important;
+	background-position:0 0 !important;
+	background-repeat:no-repeat !important;
+	font-size:1px !important;
+	height:11px !important;
+	line-height:1px !important;
+	position:absolute !important;
+	width:11px !important;
+}
+.topright {
+	background-position:right top !important;
+}
+.tooltipfang {
+	background-position:0 -44px !important;
+	left:0;
+	top:42%;
+}
+.valdicon {
+	background: url(../images/reg_icons.png) no-repeat -86px -156px;
+	background-position: -89px -150px;
+}
+
+.pop-alert{
+	background: #FFFFFF;
+	border: 1px solid #cccccc;
+	height:38px;
+	overflow:hidden;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=135,strength=3);/*ie*/
+	-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+	box-shadow:0 4px 23px 5px rgba(0, 0, 0, 0.2),0 2px 6px rgba(0,0,0,0.15)
+	/*box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+	
+}
+.pop-alert .alert-l{
+	padding-left:13px;
+	padding-right:13px;
+	padding-left: 6px;
+	padding-right: 6px;
+	height:38px;
+	overflow:hidden;
+	padding-top: 11px;
+}
+.pop-alert .alert-r{
+	height:16px;
+	padding:1px 0 0 23px;
+	padding:1px 0 0 19px;
+	overflow:hidden;
+	line-height: 14px;
+}
+
+/*操作错误提示02*/
+.alert-fault02{
+}
+.alert-fault02 .alert-r{
+	color:#FC4343;
+	background:url(../images/reg_icons.png) no-repeat -87px -25px;
+	background-position: -80px -24px;
+}
+.alert-correct .alert-r{
+	color:#666666;
+	background:url(../images/reg_icons.png) no-repeat -80px 0;
+	background-position: -80px 0;
+}
+
+/* end 验证出错提示框 */
+.TopBox .ColorRow {
+	height: 11px;
+	background-color: rgb(38, 68, 118);
+}
+.TopBox .InfoRow {
+	width: 100%;
+	height: 65px;
+	position: relative;
+	background-image: url("../images/new_top_bg.gif");
+	background-repeat: repeat-x;
+}

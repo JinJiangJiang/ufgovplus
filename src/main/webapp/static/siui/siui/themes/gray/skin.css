@@ -1,0 +1,445 @@
+﻿
+.si-mask-msg{	
+	border:2px solid #888;
+}
+/*----------------------------------- tools ----------------------------------*/
+
+.si-tools-close
+{
+    background:url(images/tools/close.gif) no-repeat 50% 0px;
+}
+
+/*----------------------------------- toolbar ----------------------------------*/
+
+.si-toolbar
+{
+    border:solid 1px #8C8C8C;
+    padding:5px;
+    background:#F3F3F3;
+}
+.separator
+{
+    border-left:solid 1px #A8A8A8;    
+}
+
+/*----------------------------------- button ----------------------------------*/
+
+.si-button
+{
+    border:1px solid #aaa;
+    background:#E0DFDF url(images/button/button.gif) repeat-x 0 0;
+    color:#000000;
+}
+body a:hover.si-button
+{
+    border: 1px solid #999;
+    background:#f2f2f2 url(images/button/hover.gif) repeat-x 0 0;              
+}
+body .si-button-pressed, body a:hover.si-button-pressed,
+body .si-button-checked, body a:hover.si-button-checked,
+body a.si-button-popup, body a:hover.si-button-popup
+{
+    background:#d5d5d5;     
+}
+body .si-button-disabled, body a:hover.si-button-disabled
+{
+    border: 1px solid #cecec3;
+    color:#808080;
+    background:#E0DFDF url(images/button/disabled.gif) repeat-x 0 0px;        
+}
+
+
+/*----------------------------------- textbox ----------------------------------*/
+.si-textbox-border
+{
+    background:white;
+	border-color:#a5acb5;        
+}
+body .si-textbox-focus .si-textbox-border
+{
+    border-color: #7F7F7F;
+}
+
+
+/*----------------------------------- buttonedit ----------------------------------*/
+
+.si-buttonedit-border
+{
+    background:white;
+	border-color:#a5acb5;      
+}
+body .si-buttonedit-focus .si-buttonedit-border
+{
+    border-color: #7F7F7F;
+}
+.si-buttonedit-button
+{
+	background:#E6E6E6 url(images/buttonedit/button.gif) repeat-x 50% 50%;		
+	border:#a5acb5 1px solid;   
+	padding:0;
+}
+.si-buttonedit-button-hover,
+.si-buttonedit-hover .si-buttonedit-button
+{
+    background:#f2f2f2 url(images/buttonedit/hover.gif) repeat-x 0 0; 
+	border-color:#7F7F7F;
+}
+.si-buttonedit-button-pressed,
+.si-buttonedit-popup .si-buttonedit-button
+{
+	border-color:#7F7F7F;
+    background:#d5d5d5;	
+}
+.si-popupedit .si-buttonedit-icon
+{
+    background:url(images/buttonedit/icon2.gif) no-repeat 60% 30%;
+}
+.si-datepicker .si-buttonedit-icon
+{
+    background:url(images/buttonedit/icon2.gif) no-repeat 60% 30%;
+}
+
+
+
+/*------------------------- panel -----------------------*/
+
+.si-panel-border
+{
+    border:1px solid #8B8B8B;  
+}
+.si-panel-header
+{
+    height:21px;
+    background:#DCDCDC;
+}
+.si-panel-header-inner
+{
+   padding-top:3px;
+}
+.si-panel-toolbar
+{
+    border-bottom:solid 1px #C9C9C9;
+    background:#F3F3F3;
+}
+
+.si-panel-footer
+{
+    border-top:solid 1px #C9C9C9;
+    background:#F3F3F3;
+}
+
+/*----------------------------- window -------------------------*/
+.si-window .si-panel-header
+{
+    background:#DCDCDC;
+}
+.si-window .si-panel-footer
+{
+    background:#F3F3F3;
+}
+
+/*------------------- navbar ------------------*/
+.si-outlookbar-border
+{
+    border:1px solid #A8A8A8;         
+}
+.si-outlookbar-groupHeader
+{
+    background:#E0E0E0;    
+}
+/* view2 */
+.si-outlookbar-view2 .si-outlookbar-groupHeader
+{
+    border:solid 1px #A8A8A8; 
+}
+.si-outlookbar-view2 .si-outlookbar-groupBody
+{    
+    background:#efefef;
+}
+/* view3 */
+.si-outlookbar-view3 .si-outlookbar-group
+{
+    border:solid 1px #A8A8A8; 
+}
+
+
+/*----------------------- layout -----------------------*/
+
+.si-layout-region
+{
+    border:1px solid #8B8B8B;
+}
+.si-layout-region-header
+{
+    background:#E0E0E0;
+    border-bottom:solid 1px #A8A8A8;
+}
+.si-layout-proxy
+{
+    background:#E0E0E0;
+}
+.si-layout-proxy-hover
+{
+    background:#F2F2F2;    
+}
+
+/*------------------------- menu --------------------------------*/
+
+.si-menu
+{
+    border-color:#8B8B8B;
+    background:white url(images/menu/menubg.gif) repeat-y;   
+    color:Black;
+}
+.si-menuitem
+{
+    line-height:20px;
+}
+.si-menuitem-hover
+{
+    border-color:#888888;
+    background:#f2f2f2;
+}
+.si-menu-popup
+{
+    border-color:#888888; 
+    background:#f2f2f2;    
+}
+.si-menuitem-selected
+{    
+    border-color:#888888; 
+    background:#cbcbcb;    
+}
+.si-menuitem-text, .si-menuitem-text a
+{
+    color:Black;
+}
+/* menu horizontal */
+.si-menu-horizontal .si-menu-inner
+{
+    background:#f0f0f0;
+}
+.si-menu-horizontal .si-menuitem-hover
+{
+    border:solid 1px #888888;
+    background:#cbcbcb;
+}
+.si-menu-horizontal  .si-menu-popup
+{
+    border:solid 1px #888888;
+    border-bottom:0px;
+    background:#cbcbcb;
+}
+
+/*---------------------- listbox -----------------------------*/
+.si-listbox-border
+{
+    border:solid 1px #9f9f9f;
+}
+.si-listbox-item-hover{
+	background:#CFCFCF;
+}
+.si-listbox-item-selected{
+	background:#a5a5a5;
+	color:White;
+}
+.si-listbox-header
+{    
+    background:#dcdcdc;
+    border-bottom:solid 1px #a0a0a0;
+}
+
+/*------------------- treegrid --------------------*/
+.si-treegrid-border
+{
+    border:1px solid #9f9f9f;
+}
+
+.si-treegrid-header
+{
+    border-bottom:solid 1px #a0a0a0;
+}
+.si-treegrid-headerInner
+{
+    background:#dcdcdc;
+}
+
+
+.si-treegrid-selectedNode
+{
+	background:#a5a5a5;
+}
+.si-treegrid-hoverNode
+{
+    background:#CFCFCF;
+}
+
+/*---------------------- calendar -----------------------------*/
+.si-calendar
+{    
+    border:1px solid #9f9f9f;       
+}
+.si-calendar-header
+{   
+    background:#dcdcdc;
+    border-bottom:solid 1px #c9c9c9;    
+}
+.si-calendar-footer
+{
+    background:#ededed;
+}
+.si-calendar-tadayButton, .si-calendar-clearButton,
+.si-calendar-okButton, .si-calendar-cancelButton
+{
+    border:1px solid #7F7F7F;
+    background:#E0DFDF url(images/calendar/button.gif) repeat-x 0 0;
+    color:#000000;
+}
+.si-calendar-menu-selected, a:hover.si-calendar-menu-selected
+{
+    color:White;
+    background:#8D8D8D;
+    border:solid 1px black;
+}
+.si-calendar .si-calendar-selected
+{
+    background:#8D8D8D;
+    color:White;
+    border:solid 1px #606060;
+}
+.si-calendar .si-calendar-today
+{
+    border:1px solid #C00000;
+}
+
+
+/*---------------------- tabs -----------------------------*/
+.si-tabs-headers
+{
+    border-color:#a8a8a8;
+    background:#F3F3F3;
+}
+.si-tabs-leftButton, .si-tabs-rightButton
+{
+    border:solid 1px #7F7F7F;
+    background-color:#E0E0E0;
+}
+a:hover.si-tabs-leftButton,a:hover.si-tabs-rightButton
+{
+    background-color:#F2F2F2;
+}
+/* top */
+.si-tabs-bodys
+{
+    border:solid 1px #a8a8a8;
+    border-top:0;
+}
+.si-tabs-space
+{
+    border-bottom:solid 1px #a8a8a8;
+}
+.si-tabs-space2
+{
+    border-bottom:solid 1px #a8a8a8;
+}
+
+.si-tab
+{
+    background-color: #E0E0E0;
+    border: 1px solid #a8a8a8;
+    color:Black;
+}
+.si-tab-hover
+{        
+    background:#F2F2F2;    
+}
+.si-tab-active
+{
+    border-bottom:solid 1px white;
+    background:white;    
+}
+
+/* bottom */
+.si-tabs-position-bottom .si-tabs-space,
+.si-tabs-position-bottom .si-tabs-space2
+{
+    border:0;
+    border-top: 1px solid #a8a8a8;
+}
+.si-tabs-position-bottom .si-tabs-bodys
+{    
+    border:solid 1px #a8a8a8;
+    border-bottom:0;
+}
+.si-tabs-position-bottom .si-tab-active
+{
+    border-top:solid 1px white;
+    border-bottom:solid 1px #a8a8a8;
+}
+
+/* left */
+.si-tabs-position-left .si-tabs-space,
+.si-tabs-position-left .si-tabs-space2
+{
+    border:0;
+    border-right: 1px solid #a8a8a8;
+}
+.si-tabs-position-left .si-tabs-bodys
+{
+    border:solid 1px #a8a8a8;
+    border-left:0;
+}
+.si-tabs-position-left .si-tab-active
+{    
+    border:solid 1px #a8a8a8;
+    border-right:solid 1px white;
+}
+
+/* right */
+.si-tabs-position-right .si-tabs-space,
+.si-tabs-position-right .si-tabs-space2
+{
+    border:0;
+    border-left: 1px solid #a8a8a8;
+}
+.si-tabs-position-right .si-tabs-bodys
+{    
+    border:solid 1px #a8a8a8;
+    border-right:0;
+}
+.si-tabs-position-right .si-tab-active
+{    
+    border:solid 1px #a8a8a8;
+    border-left:solid 1px white;
+}
+
+
+/*---------------------- tree -----------------------------*/
+
+.si-tree-hottrack .si-tree-node-hover
+{
+    border:1px solid #888888;
+    background:#f2f2f2;
+}
+
+.si-tree-selectedNode .si-tree-nodeshow
+{
+    border:1px solid #888888;
+    background:#d8d8d8;
+}
+
+/*---------------------- grid -----------------------------*/
+.si-grid-headerCell, .si-grid-topRightCell
+{
+    background:#dcdcdc;
+    border-right:#9f9f9f 1px solid;
+    border-bottom:#9f9f9f 1px solid;
+}
+.si-grid-footer
+{
+    background:#f2f2f2;
+}
+.si-grid-detailRow
+{
+    background:#F0F0F0;
+}

@@ -1,0 +1,77 @@
+
+div.tableContainer {  
+clear: both;  
+border: 1px solid #f1f1f1;  
+height: 380px;  
+overflow: auto;  
+width: 100%;  
+}  
+html>body div.tableContainer table {  
+float: none;  
+margin: 0;  
+width: 480px  
+}  
+head:first-child+body div[class].tableContainer table {  
+width: 480px  
+}  
+thead.fixedHeader tr {  
+position: relative;  
+top: expression(document.getElementById("tableContainer").scrollTop)  
+}  
+head:first-child+body thead[class].fixedHeader tr {  
+display: block  
+}  
+thead.fixedHeader td {  
+background: #f1f1f1;  
+border-left: 1px solid #C0C0C0;  
+border-right: 1px solid #C0C0C0;  
+border-top: 1px solid #C0C0C0;  
+font-weight: normal;  
+padding: 4px 3px;    
+}  
+head:first-child+body tbody[class].scrollContent {  
+display: block;  
+height: 262px;  
+overflow: auto;  
+width: 100%  
+}
+tbody.scrollContent td, tbody.scrollContent tr.normalRow td {  
+background: #FFF;  
+border-bottom: 1px solid #EEE;  
+border-left: 1px solid #EEE;  
+border-right: 1px solid #AAA;  
+border-top: 1px solid #AAA;  
+padding: 2px 3px  
+}  
+tbody.scrollContent tr.alternateRow td {  
+background: #EEE;  
+border-bottom: 1px solid #EEE;  
+border-left: 1px solid #EEE;  
+border-right: 1px solid #AAA;  
+border-top: 1px solid #AAA;  
+padding: 2px 3px  
+}  
+head:first-child+body thead[class].fixedHeader th {  
+width: 200px  
+}  
+
+head:first-child+body thead[class].fixedHeader th + th {  
+width: 250px  
+}  
+head:first-child+body thead[class].fixedHeader th + th + th {  
+border-right: none;  
+padding: 4px 4px 4px 3px;  
+width: 316px  
+}  
+head:first-child+body tbody[class].scrollContent td {  
+width: 200px  
+}  
+head:first-child+body tbody[class].scrollContent td + td {  
+width: 250px  
+}  
+head:first-child+body tbody[class].scrollContent td + td + td {  
+border-right: none;  
+padding: 2px 4px 2px 3px;  
+width: 480px  
+top: expression(document.getElementById("tableContainer").scrollTop)  
+}  

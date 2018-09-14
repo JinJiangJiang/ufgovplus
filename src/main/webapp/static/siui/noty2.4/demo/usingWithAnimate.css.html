@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Using with Animate.css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="demonstration of some noty capabilities">
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic&amp;subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            font-family: 'PT Sans', Tahoma, Arial, serif;
+            line-height: 13px
+        }
+
+    </style>
+
+ 
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="customContainer"></div>
+
+    </div>
+
+    <script src="jquery-1.7.2.min.js"></script>
+
+    <!-- noty -->
+    <script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.js"></script>
+    <script type="text/javascript" src="notification_html.js"></script>
+
+    <script type="text/javascript">
+    var html2 = '<div style="height:90px">测试元神</div>';
+    var html3 = '<div class="activity-item"> <i class="fa fa-check text-success"></i> <div class="activity"> 系统提示：请输入角色信息！See <a href="#">changelog</a> <span>About 2 hours ago</span> <div> </div>'
+        function generate(type, text) {
+
+            var n = noty({
+                text        : text,
+                type        : type,
+                dismissQueue: true,
+                layout      : 'topLeft',
+                closeWith   : ['click'],
+                theme       : 'metroui',
+                maxVisible  : 10,
+                animation   : {
+                 open : {
+					height : "toggle"
+				},
+				close : {
+					height : "toggle"
+				},
+                    easing: 'swing',
+                    speed : 500
+                }
+            });
+            console.log('html: ' + n.options.id);
+            return n;
+        }
+
+        function generateAll() {
+            generate('warning', html3);
+            generate('error', html3);
+            generate('information', html3);
+            generate('error', notification_html[1]);
+            generate('information', notification_html[2]);
+            generate('success', notification_html[3]);
+//            generate('notification');
+//            generate('success');
+        }
+
+        $(document).ready(function () {
+
+            setTimeout(function() {
+                generateAll();
+            }, 500);
+
+        });
+
+    </script>
+</body>
+</html>

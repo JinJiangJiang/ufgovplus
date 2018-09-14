@@ -1,0 +1,203 @@
+/* button
+==========================================*/
+.mini-button
+{    
+    background: #FFFFFF;
+    border-color: #dddCCC;
+    color: #333333;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-radius: 4px; 
+}
+body a:hover.mini-button
+{
+	color:#333;
+	border-color:#adadad;
+	background:#ebebeb	      
+}
+body .mini-button-pressed, body a:hover.mini-button-pressed,
+body .mini-button-checked, body a:hover.mini-button-checked,
+body a.mini-button-popup, body a:hover.mini-button-popup
+{
+    
+	background:#ebebeb;
+	border-color:#adadad;
+	color:#333333;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);    
+}
+body a.mini-button-disabled, body a:hover.mini-button-disabled
+{
+	color:#999;
+	border-color:#ddd;	
+	background:none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);	
+}
+
+a.mini-button-success,
+a.mini-button-info,
+a.mini-button-warning,
+a.mini-button-danger{
+	color:#fff;
+}
+
+.mini-button-primary,
+{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+a.mini-button-primary
+{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+body a:hover.mini-button-primary
+{
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;   
+}
+body .mini-button-pressed.mini-button-primary, body a:hover.mini-button-pressed.mini-button-primary,
+body .mini-button-checked.mini-button-primary, body a:hover.mini-button-checked.mini-button-primary,
+body a.mini-button-popup.mini-button-primary, body a:hover.mini-button-popup.mini-button-primary
+{
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;  
+}
+body a.mini-button-disabled.mini-button-primary, 
+body a:hover.mini-button-disabled.mini-button-primary
+{
+    color:#fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.mini-button-success
+{    
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+body a:hover.mini-button-success
+{
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;     
+}
+body .mini-button-pressed.mini-button-success, body a:hover.mini-button-pressed.mini-button-success,
+body .mini-button-checked.mini-button-success, body a:hover.mini-button-checked.mini-button-success,
+body a.mini-button-popup.mini-button-success, body a:hover.mini-button-popup.mini-button-success
+{
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;    
+}
+body a.mini-button-disabled.mini-button-success, 
+body a:hover.mini-button-disabled.mini-button-success
+{
+    color:#fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.mini-button-info
+{    
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+body a:hover.mini-button-info
+{
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;   
+}
+body .mini-button-pressed.mini-button-info, body a:hover.mini-button-pressed.mini-button-info,
+body .mini-button-checked.mini-button-info, body a:hover.mini-button-checked.mini-button-info,
+body a.mini-button-popup.mini-button-info, body a:hover.mini-button-popup.mini-button-info
+{
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;   
+}
+body a.mini-button-disabled.mini-button-info, body a:hover.mini-button-disabled.mini-button-info
+{
+    color:#fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.mini-button-warning
+{    
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+body a:hover.mini-button-warning
+{
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;   
+}
+body .mini-button-pressed.mini-button-warning, body a:hover.mini-button-pressed.mini-button-warning,
+body .mini-button-checked.mini-button-warning, body a:hover.mini-button-checked.mini-button-warning,
+body a.mini-button-popup.mini-button-warning, body a:hover.mini-button-popup.mini-button-warning
+{
+  color: #fff;
+  background-color: #d58512;
+  border-color: #985f0d;  
+}
+body a.mini-button-disabled.mini-button-warning, body a:hover.mini-button-disabled.mini-button-warning
+{
+    color:#fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.mini-button-danger
+{    
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+body a:hover.mini-button-danger
+{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925; 
+}
+body .mini-button-pressed.mini-button-danger, body a:hover.mini-button-pressed.mini-button-danger,
+body .mini-button-checked.mini-button-danger, body a:hover.mini-button-checked.mini-button-danger,
+body a.mini-button-popup.mini-button-danger, body a:hover.mini-button-popup.mini-button-danger
+{
+  color: #fff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+body a.mini-button-disabled.mini-button-danger, body a:hover.mini-button-disabled.mini-button-danger
+{
+    color:#fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.mini-button-plain.mini-button-primary,
+.mini-button-plain.mini-button-success,
+.mini-button-plain.mini-button-info,
+.mini-button-plain.mini-button-warning,
+.mini-button-plain.mini-button-danger
+{
+    color:#333;
+}
+
+/* htmlfile
+==========================================*/
+.mini-htmlfile .mini-buttonedit-button
+{
+	color:#333;			
+    background: #FFFFFF;
+    border-color: #ddd;       
+}
+

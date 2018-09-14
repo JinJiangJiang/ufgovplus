@@ -1,0 +1,68 @@
+.si-button
+{
+    border-radius: 2px; 
+}
+/*----------------------------------- button ----------------------------------*/
+
+.si-button
+{
+	background:url(images/button/button.gif) repeat-x 0px 50%;
+	border:solid 1px #b5afaf;	
+    color:#222;
+}
+body a:hover.si-button
+{
+	background:#e2f2fe url(images/button/hover.gif) repeat-x 0px 50%;
+	border:solid 1px #80a4d0;	         
+}
+body .si-button-pressed, body a:hover.si-button-pressed,
+body .si-button-checked, body a:hover.si-button-checked,
+body a.si-button-popup, body a:hover.si-button-popup
+{
+	background:#bacee4 url(images/button/pressed.gif) repeat-x 0px 50%;	
+	border-color:#7a9ac4;
+}
+body .si-button-disabled, body a:hover.si-button-disabled
+{
+    border-color:#E1E2E5;
+    color:#BABAC1;
+    background:#F8F9FA url(images/button/disabled.png) repeat-x 0 0px;       
+}
+
+/*----------------------------------- buttonedit ----------------------------------*/
+
+.si-buttonedit-border
+{
+	background:white url(images/buttonedit/text-bg.gif) repeat-x 0px top;
+	border-color:#b5b8c8;    
+}
+body .si-buttonedit-focus .si-buttonedit-border
+{
+    border-color: #7eadd9;
+}
+.si-buttonedit-button
+{
+	background:url(images/buttonedit/btn.gif) repeat-x 0px 50%;		
+	border:#b5b8c8 1px solid;   
+	padding:0;
+}
+.si-buttonedit-button-hover,
+.si-buttonedit-hover .si-buttonedit-button
+{
+    background:url(images/buttonedit/btn-hover.gif) repeat-x 0 50%;	
+	border-color:#80a4d0;
+}
+.si-buttonedit-button-pressed,
+.si-buttonedit-popup .si-buttonedit-button
+{
+    background:url(images/buttonedit/btn-pressed.gif) repeat-x 0 50%;	
+	border-color:#80a4d0;
+}
+.si-popupedit .si-buttonedit-icon
+{
+    background:url(images/buttonedit/arrow.gif) no-repeat  1px 2px;
+}
+.si-datepicker .si-buttonedit-icon
+{
+    background:url(images/buttonedit/date.gif) no-repeat  1px 2px;
+}

@@ -1,0 +1,9 @@
+/* header bar*/
+.table_head_bar {height:30px;width:100%;background: url(../images/headbar/headbar.png);border-bottom: 0px solid #B6C6EC;}
+.table_head_bar td{ font-size:12px;padding:0 8px 2px 8px;}
+.table_head_bar .half{ height:14px;width:22px;top: 3px;position: relative;}
+.table_head_bar .title{ left: 6px;top:0;display: inline;position: relative;}
+.table_head_bar a {outline: none}
+.table_head_bar a:link {color: #0000FF;	text-decoration: none;}
+.table_head_bar a:visited {color: #0000FF; text-decoration: none;}
+.table_head_bar a:hover {color: #FF0000; text-decoration:none;}@CHARSET "UTF-8";

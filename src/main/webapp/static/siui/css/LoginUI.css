@@ -1,0 +1,447 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	font-family:"Arial","SimSun";
+}
+a
+{
+	/*text-decoration:none;
+	color:#ffffff;*/
+}
+input{outline:none;padding:0 5px}
+.LoginBI
+{
+	position:absolute;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+.LoginBI img
+{
+	width:100%;
+}
+.LoginLogo
+{
+	position:absolute;
+	overflow:hidden;
+	top:22px;
+	left:10px;	
+}
+.LoginLogo .LoginLogoChsImg
+{
+	width:250px;
+	height:65px;
+	background-image:url(../images/login/new_k3wise_chs.png);
+	background-repeat:no-repeat;		
+}
+.LoginLogo .LoginLogoChtImg
+{
+	width:250px;
+	height:65px;	
+	background-image:url(../images/login/new_k3wise_cht.png);
+	background-repeat:no-repeat;
+}
+.LoginLogo .LoginLogoEnImg{
+	width:307px;
+	height:69px;	
+	background-image:url(../images/login/new_k3wise_en.png);
+	background-repeat:no-repeat;
+}
+.LoginLogo .LoginLogoHrChsImg
+{
+	width:324px;
+	height:86px;
+	background-image:url(../images/login/KSE_login_logo_hr.png);
+	background-repeat:no-repeat;	
+}
+.LoginLogo .LoginLogoHrChtImg
+{
+	width:324px;
+	height:86px;	
+	background-image:url(../images/login/zh-cht/KSE_login_logo_hr.png);
+	background-repeat:no-repeat;
+}
+.LoginLogo .LoginLogoHrEnImg
+{
+	width:324px;
+	height:86px;
+	background-image:url(../images/en/login/KSE_login_logo_hr.png);
+	background-repeat:no-repeat;
+}
+.LoginWeb
+{	
+	position:absolute;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+.LoginWeb .Web
+{
+	width:627px;
+	height:20px;
+	margin:0 auto;
+	margin-top:140px;
+}
+.LoginWeb .Web img
+{
+	margin-left:20px;
+}
+.Top
+{
+	left:0px;
+	top:0px;
+	/** position:absolute; **/
+	width:100%;
+	height:50px;
+	margin:0 auto;
+}
+.Top .TopMid
+{
+	width:921px;
+	height:50px;
+	margin:0 auto;
+}
+.Top .TopMid .Logo
+{
+	width:300px;
+	height:30px;	
+	float:left;
+	margin-top:10px;
+}
+.Top .TopMid .LogoWise
+{
+	background-image:url(../images/login/new_role_k3_logo_wise.png);
+	background-repeat:no-repeat;
+}
+.Top .TopMid .LogoWiseEn
+{
+	background-image:url(../images/login/new_role_k3_logo_wise_en.png);
+	background-repeat:no-repeat;
+	width:316px;
+	height:37px;
+}
+.Top .TopMid .LogoCRM
+{
+	background-image:url(../images/login/new_role_k3_logo_crm.png);
+	background-repeat:no-repeat;
+}
+.Top .TopMid .LogoCRMEn
+{
+	background-image:url(../images/login/new_role_k3_logo_crm_en.png);
+	background-repeat:no-repeat;
+	width:309px;
+	height:37px;
+}
+.Top .TopMid .LogoHr
+{
+	background-image:url(../images/login/new_role_k3_logo_hr.png);
+	background-repeat:no-repeat;
+	width:350px;
+	height:31px;
+}
+.Top .TopMid .LogoHrEn
+{
+	background-image:url(../images/login/new_role_k3_logo_hr_en.png);
+	background-repeat:no-repeat;
+	width:497px;
+	height:36px;
+}
+.Top .TopMid .Lang
+{
+	float:right;
+	height:20px;
+	line-height:20px;
+	margin-top:30px;
+	color:#505050;
+}
+.Top .TopMid .Lang img
+{	
+	margin:0px 10px;	
+}
+.LoginMain
+{
+	/** position:absolute; **/
+	width:100%;
+	height:341px;
+	z-index:100000;
+	margin:0 auto;
+}
+.LoginMainBG
+{
+	background-image:url(../images/login/new_role_bg.png);
+	background-repeat:repeat-x;
+}
+.LoginMainBGBig
+{
+	background-image:url(../images/login/new_role_bg_big.png);
+	background-repeat:repeat-x;
+	height:386px;
+}
+
+.LoginBox
+{
+	width:590px;
+	height:100%;
+	position:relative;
+	margin:0 auto;		
+}
+
+.LoginImg
+{
+	width:590px;
+	height:320px;	
+	position:absolute;	
+	left:-200px;
+	top:20px;	
+}
+.LoginBox .LoginImgBG
+{
+	background-image:url(../images/login/new_role_bgimg.png);
+	background-repeat:no-repeat;
+}
+.LoginBox .LoginImgBGBig
+{
+	width:683px;
+	height:341px;
+	background-image:url(../images/login/new_role_bgimg_big.png);
+	background-repeat:no-repeat;
+}
+.LoginBox .LoginImg .BoxLeft
+{
+	background-image:url(../images/login/new_box_crm.png);
+	width:166px;
+	height:166px;
+	margin:71px 0px 0px 58px;
+}
+.LoginBox .Shadow
+{
+	width:354px;
+	height:301px;			
+	background-color:#929292;	
+	position:absolute;
+	left:505px;
+	top:25px;
+	z-index:99;
+	opacity:0.1;
+	filter:alpha(opacity=10);
+}
+.LoginBox .SeleBox
+{
+	width:344px;
+	height:291px;	
+	float:right;
+	color:#fc4343;	
+	background-color:#fff;
+	position:absolute;
+	left:510px;
+	top:30px;
+	z-index:100;
+	overflow:hidden;
+}
+.LoginBox .SeleBoxBig
+{
+	height:336px;
+}
+.LoginBox .SeleBox .SeleRow
+{	
+	margin-bottom:15px;
+	margin-left:30px;
+	width:284px;
+	height:28px;
+	line-height:28px;
+}
+.LoginBox .SeleBox .FirstRow
+{
+	margin-top:30px;
+	width:350px;		
+	margin-left:45px;
+	text-align:right;
+	font-size: 16px;
+}
+.LoginBox .SeleBox .FirstRow img
+{
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.LoginBox .SeleBox .Radios
+{
+	width:300px;
+	margin-left:30px;	
+	margin-bottom:16px;
+	margin-top:23px;
+	height:28px;
+	line-height:28px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.LoginBox .SeleBox .Radios span
+{
+	margin-right:2px;
+}
+.LoginBox .SeleBox .SeleRow .left
+{
+	font-size:12px;
+	color:#505050;
+	width:70px;
+	height:28px;
+	line-height:34px;
+	float:left;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.LoginBox .SeleBox .SeleRow .right
+{
+	height:28px;
+	line-height:28px;
+	width:203px;
+	float:left;
+}
+.LoginBox .SeleBox .SeleRow  .right input
+{
+	height:28px;
+	line-height:20px;
+	width:203px;
+	border:#cdcdcd 1px solid;
+}
+
+.LoginBox .SeleBox .SeleRow  .right input:focus
+{
+	border:#5997E6 1px solid;
+}
+
+.LoginBox .SeleBox .SeleRow  .right select
+{
+	height:28px;
+	line-height:28px;
+	width:201px;
+	border:#cdcdcd 1px solid;
+}
+.LoginBox .SeleBox .EndRow
+{	
+	margin-right:33px;
+}
+.LoginBox .SeleBox .EndRow .aok
+{
+	cursor:pointer;
+	line-height:31px;
+	text-align: center;    
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	width:88px;
+	height:31px;
+	display:block;
+	float:right;		
+	background-image:url(../images/login/logoko.png);
+	margin-right:12px;
+	border:solid 1px #0481d6;
+}
+.LoginBox .SeleBox .EndRow .aok:hover
+{
+	background-image:url(../images/login/logokd.png);
+}
+.LoginBox .SeleBox .EndRow .areset
+{
+	cursor:pointer;
+	line-height:31px;
+	text-align: center;    
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	width:88px;
+	height:31px;
+	display:block;
+	float:right;	
+	background-image:url(../images/login/logresetd.png);
+	margin-right:12px;
+	border:solid 1px #c8c8c8;
+}
+.LoginBox .SeleBox .EndRow .areset:hover
+{
+	background-image:url(../images/login/logreseto.png);
+}
+.TipBox
+{
+	/*position:absolute;*/
+	width:100%;
+	height:145px;
+	background-color:#f5f5f5;
+	left:0px;
+	top:0px;
+}
+.TipBox .TipBoxInfo
+{
+	width:920px;
+	height:110px;
+	margin:0 auto;
+}
+.TipBox .TipBoxInfo .Left
+{
+	width:400px;
+	height:110px;
+	float:left;
+	padding-right:38px;
+	background-image:url(../images/login/new_roletopsplit.png);
+	background-repeat:no-repeat;
+	background-position-x:400px;
+}
+.TipBox .TipBoxInfo .Right
+{
+	width:400px;
+	height:110px;
+	color:#505050;
+	float:left;
+}
+.TipBox .TipBoxInfo a
+{
+	text-decoration:none;
+	font-size:12px;
+	color:#5cb5cb;
+}
+.TipBox .TipBoxInfo .info
+{
+	background-image:url(../images/login/cue.png);
+	background-repeat:no-repeat;
+	background-position-y:4px;
+	text-indent:16px;
+	display:block;	
+	color:#505050;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	padding-right:38px;
+}
+.TipBox .TipBoxInfo #clientControlCheckSpan
+{
+	display:block;	
+	color:#505050;
+	font-size:12px;
+}
+.TipBox .TipBoxInfo #clientControlCheckSpan .centercenterfont4Info
+{
+	background-image:url(../images/login/cue.png);
+	background-repeat:no-repeat;
+	background-position-y:4px;
+	text-indent:16px;	
+	line-height:20px;
+}
+.BottomTipBox
+{
+	position:absolute; 
+	left:20px; 
+	bottom:5px; 
+	/*width:100%;*/
+	height:20px; 
+	color:Black; 
+	margin-right:10px;
+}

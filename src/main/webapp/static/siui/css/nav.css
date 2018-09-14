@@ -1,0 +1,329 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: none;
+	margin: 0; 
+	padding: 0;
+	font-size:12px;
+	font-style: normal;
+	font-weight:bold;
+}
+ol, ul, li{
+	list-style:none;
+}
+a:link{
+	outline:none;
+}
+/*** ��ർ�� ***/
+.zzp-frame-menu{
+	/*width:186px;
+	/*z-index:80;
+	float:left;*/
+	background:#e5ebf0 url(../images/nav/bg_frame_menu.gif) 100% 0px repeat-y;
+	overflow-y:auto;
+	overflow-x:hidden;
+	*position:relative;
+	/*_margin-right:-3px;*/
+}
+.nav-left li{
+	position:relative;
+	#zoom:1;
+	*overflow:hidden;
+}
+.nav-left li a{
+	height:15px;
+	height:14px\9;
+	display:inline-block;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.nav-left li div{
+	padding:6px 0;
+}
+.nav-left div.hitarea,.nav-left div.last-hit {
+	width:9px;
+	height:9px;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+/** һ�� **/
+.nav-left .nav-first{
+	margin-bottom:-5px;
+	_margin-bottom:-7px;
+}
+.nav-left .nav-first .title01{
+	background:url(../images/nav/bg_nav.png) no-repeat 100% 0px;
+	height:34px;
+	_height:32px;
+	padding-left:20px;
+	overflow:hidden;
+	*zoom:1;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.nav-left .nav-first .title01-last{
+	height:30px;
+}
+.nav-left .nav-first div.hover{
+	background:url(../images/nav/bg_nav.png) no-repeat 100% -35px;
+}
+.nav-left .nav-first div.ces-menu-tree-curr{
+	background:url(../images/nav/bg_nav.png) no-repeat 100% -70px;
+}
+.nav-left .nav-first .title01 .icon-one{
+	width:16px;
+	height:16px;
+	margin-top:6px;
+	float:left;
+	background:url(../images/nav/icon_frame_first_li.gif) no-repeat;
+}
+.nav-left .nav-first .title01 .icon-two{
+	width:16px;
+	height:16px;
+	margin-top:6px;
+	float:left;
+	background:url(../images/nav/icon_frame_first_li.gif) no-repeat;
+}
+.nav-left .nav-first .title01 .icon-three{
+	width:16px;
+	height:16px;
+	margin-top:6px;
+	float:left;
+	background:url(../images/nav/icon_frame_first_li.gif) no-repeat 0 -34px;
+}
+.nav-left .nav-first .title01 .icon-four{
+	width:16px;
+	height:16px;
+	margin-top:6px;
+	float:left;
+	background:url(../images/nav/icon_frame_first_li.gif) no-repeat;
+}
+.nav-left .nav-first .title01 a{
+	float:left;
+	margin:7px 0 0 13px;
+}
+.nav-left .nav-first .collapsable-hitarea{
+	background:url(../images/nav/icon_frame_farther_arrow.gif) no-repeat 0px 0px;
+}
+.nav-left .nav-first .expandable-hitarea{
+	background:url(../images/nav/icon_frame_farther_arrow.gif) no-repeat 0px -9px;
+}
+/** ���� **/
+.nav-left .li-2,
+.nav-left .nav-second{
+	background:#cadae8 url(../images/nav/bg_frame_menu_child.gif) repeat-y 100% 0px;
+	margin-top:-2px;
+	padding-bottom:2px;
+}
+.nav-left .li-2 .title02,
+.nav-left .nav-second .title02{
+	padding-left:35px;
+}
+.nav-left .li-2 div.hover,
+.nav-left .nav-second div.hover{
+	background:url(../images/nav/bg_frame_child.gif) no-repeat 0px 0px;
+}
+.nav-left .li-2 div.ces-menu-tree-curr,
+.nav-left .nav-second div.ces-menu-tree-curr{
+	background:url(../images/nav/bg_nav.png) no-repeat 100% -105px;
+}
+.nav-left .li-2 div.ces-menu-tree-curr a,
+.nav-left .nav-second div.ces-menu-tree-curr a{
+	color:#fff;
+}
+.nav-left .nav-first .li-2 .hitarea,
+.nav-left .nav-first .li-2 .last-hit ,
+.nav-left .nav-first .nav-second .hitarea,
+.nav-left .nav-first .nav-second .last-hit{
+	left:20px;
+}
+.nav-left .nav-first .li-2 .collapsable-hitarea,
+.nav-left .nav-first .nav-second .collapsable-hitarea{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -30px;
+}
+.nav-left .nav-first .li-2 .expandable-hitarea,
+.nav-left .nav-first .nav-second .expandable-hitarea{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -20px;
+}
+.nav-left .nav-first .nav-second .last-level{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -50px;
+}
+.nav-left .nav-first .li-2 span,
+.nav-left .nav-first .nav-second span{
+	width:9px;
+	height:9px;
+	display:none;	
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -10px;
+}
+/** �� **/
+.nav-left .title03{
+	padding-left:45px;
+}
+.nav-left .nav-first .li-2 .li-3-hitarea,
+.nav-left .nav-first .nav-second .three-li-hitarea{
+	left:35px;
+}
+/** �ļ� **/
+.nav-left .title04{
+	padding-left:55px;
+}
+.nav-left .nav-first .li-2 .li-4-hitarea,
+.nav-left .nav-first .nav-second .four-li-hitarea{
+	left:45px;
+}
+/** �弶 **/
+.nav-left .title05{
+	padding-left:65px;
+}
+.nav-left .nav-first .li-2 .li-5-hitarea,
+.nav-left .nav-first .nav-second .five-li-hitarea{
+	left:55px;
+}
+/** �� **/
+.nav-left .title06{
+	padding-left:75px;
+}
+.nav-left .nav-first .li-2 .li-6-hitarea,
+.nav-left .nav-first .nav-second .six-li-hitarea{
+	left:65px;
+}
+.nav-left .title07{
+	padding-left:85px;
+}
+.nav-left .nav-first .li-2 .li-7-hitarea,
+.nav-left .nav-first .nav-second .li-7-hitarea{
+	left:75px;
+}
+.nav-left .title08{
+	padding-left:95px;
+}
+.nav-left .nav-first .li-2 .li-8-hitarea,
+.nav-left .nav-first .nav-second .li-8-hitarea{
+	left:85px;
+}
+.nav-left .title09{
+	padding-left:105px;
+}
+.nav-left .nav-first .li-2 .li-9-hitarea,
+.nav-left .nav-first .nav-second .li-9-hitarea{
+	left:95px;
+}
+.nav-left .title010{
+	padding-left:115px;
+}
+.nav-left .nav-first .li-2 .li-010-hitarea,
+.nav-left .nav-first .nav-second .li-010-hitarea{
+	left:105px;
+}
+.nav-left .title011{
+	padding-left:125px;
+}
+.nav-left .nav-first .li-2 .li-011-hitarea,
+.nav-left .nav-first .nav-second .li-011-hitarea{
+	left:115px;
+}
+.nav-left .title012{
+	padding-left:135px;
+}
+.nav-left .nav-first .li-2 .li-012-hitarea,
+.nav-left .nav-first .nav-second .li-012-hitarea{
+	left:125px;
+}
+.nav-left .title013{
+	padding-left:145px;
+}
+.nav-left .nav-first .li-2 .li-013-hitarea,
+.nav-left .nav-first .nav-second .li-013-hitarea{
+	left:135px;
+}
+.nav-left .title014{
+	padding-left:155px;
+}
+.nav-left .nav-first .li-2 .li-014-hitarea,
+.nav-left .nav-first .nav-second .li-014-hitarea{
+	left:145px;
+}
+.nav-left .title015{
+	padding-left:165px;
+}
+.nav-left .nav-first .li-2 .li-015-hitarea,
+.nav-left .nav-first .nav-second .li-015-hitarea{
+	left:155px;
+}
+.nav-left .title016{
+	padding-left:175px;
+}
+.nav-left .nav-first .li-2 .li-016-hitarea,
+.nav-left .nav-first .nav-second .li-016-hitarea{
+	left:165px;
+}
+.nav-left .li-2 .title02 .two-add{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px 0px;
+	display:block;
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+.nav-left .li-2 .title02 .two-minus{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -10px;
+	display:block;
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+.nav-left .li-2 .title02 .two-config{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -38px;
+	display:block;
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+.nav-left .li-2 .two-other{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0 -10px!important;
+	display:block!important;
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+.nav-left .li-2 li .two-other{
+	margin-left:14px;
+}
+/*dis-menu*/
+.nav-left .dis-menu div a{
+	color:#a8a8a8;
+}
+.nav-left .dis-menu div.ces-menu-tree-curr a{
+	color:#a8a8a8;
+}
+.nav-left .nav-first .dis-menu .expandable-hitarea{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -90px;
+}
+.nav-left .nav-first .dis-menu .collapsable-hitarea{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -100px;
+}
+.nav-left .nav-first .nav-second .dis-menu .last-level{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -119px;
+}
+.nav-left .dis-menu .title02 .two-add,
+.nav-left .dis-menu .title02 .two-config,
+.nav-left .dis-menu .title02 .two-minus,
+.nav-left .dis-menu .title02 .two-other{
+	background:url(../images/nav/icon_frame_child_arrow.gif) no-repeat 0px -129px!important;
+}
+/*.nav-left .nav-first .dis-menu div.ces-menu-tree-curr{
+	background:none;
+}*/
+/** icon **/
+.nav-left #menuicon-01010000{/**��Ʒ����**/
+	background-position:0px 0px;
+}

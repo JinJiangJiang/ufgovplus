@@ -1,0 +1,502 @@
+﻿body
+{
+    font-size:13px;
+    line-height:1.4;    
+}
+
+/* button
+==========================================*/
+.si-button
+{
+    font-size:13px;
+    line-height:16px;
+}
+.si-button-text
+{   
+    padding:4px 10px 4px 10px;	
+    padding:5px 10px 3px 10px\9;	
+    line-height:16px;
+}
+.si-button-icon
+{
+    left:6px;    
+}
+.si-button .si-button-icon-text
+{
+    padding-left:27px;
+}
+.si-button .si-button-icon-only
+{
+    padding-left:16px;
+}
+.si-button .si-button-icon-only .si-button-icon
+{    
+    left:6px;    
+}
+.si-button-iconRight .si-button-icon-text
+{
+    padding-left:10px;
+    padding-right:27px;
+}
+.si-button-iconRight .si-button-icon
+{
+    left:auto;
+    right:6px;
+}
+.si-button-iconTop .si-button-icon-text
+{
+    padding-left:10px;
+    padding-top:26px;
+}
+.si-button-iconTop .si-button-icon
+{
+    left:50%;
+    margin-left:-9px;
+    top:4px;
+    margin-top:auto;
+}
+.si-button-allow
+{
+    margin-top:4px;
+    position:relative;
+    left:-2px;    
+}
+
+/* textbox
+==========================================*/
+.si-textbox-input
+{
+    height:24px;
+    line-height:24px;
+    font-size:13px;
+}
+.si-textbox-border
+{
+    padding-left:6px;
+    padding-right:6px;
+    height:24px;
+}
+.si-textbox
+{
+    overflow:visible;
+    height:26px;
+    width:150px;
+}
+.si-textarea .si-textbox-border
+{
+    padding-left:6px;
+    padding-right:0px;
+}
+.si-textarea .si-textbox-input
+{
+    line-height:18px;
+}
+.si-placeholder-label
+{
+    line-height:20px;
+    padding-left:4px;
+}
+
+/* buttonedit
+==========================================*/
+.si-buttonedit-input
+{
+    height:24px;
+    line-height:24px;
+    font-size:13px;
+}
+.si-buttonedit-border
+{
+    padding-left:6px;
+    padding-right:22px;
+    height:24px;
+}
+.si-buttonedit
+{
+    overflow:visible;
+    height:26px;
+    width:150px;
+}
+.si-buttonedit-button
+{
+    height:20px;
+    width:20px;
+}
+.si-buttonedit-close
+{
+    height:20px;
+}
+/*.si-buttonedit-up span, .si-buttonedit-down span
+{
+    background-position:50% 3px;
+}*/
+
+/* htmlfile
+==========================================*/
+.si-htmlfile .si-buttonedit-button
+{
+    line-height:20px;
+}
+
+/* textboxlist
+==========================================*/
+.si-textboxlist
+{
+    height:26px;
+}
+.si-textboxlist ul
+{
+    padding-top:3px;
+    padding-left:6px;
+}
+.si-textboxlist .si-textboxlist-item
+{
+    font-size:13px;
+    line-height:16px;
+}
+.si-textboxlist .si-errorIcon
+{
+    margin-top:4px;
+}
+.si-textboxlist .si-textboxlist-input
+{
+    height:16px;
+    line-height:16px;
+}
+
+/* checkbox
+==========================================*/
+.si-checkbox
+{
+    font-size:13px;
+    line-height:24px;
+}
+.si-checkbox-check,
+.si-checkbox-icon
+{
+    margin-right:8px;
+}
+
+/* checkboxlist & radiobuttonlist
+==========================================*/
+.si-checkboxlist table label,
+.si-radiobuttonlist table label
+{
+    padding-left:6px;
+    line-height:20px;
+    font-size:13px;
+}
+
+/* listbox
+==========================================*/
+.si-listbox td
+{
+    line-height:18px;
+    font-size:13px;
+    padding: 4px 6px 4px 6px;
+}
+
+/* grid
+==========================================*/
+.si-grid-cell-inner
+{
+    padding-top:4px;
+    padding-bottom:4px;
+    font-size:13px;
+}
+.si-grid-headerCell-inner
+{
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size:13px;
+}
+.si-grid-headerCell-outer
+{
+    padding-left:4px;
+    padding-right:2px;
+}
+.si-grid-columnproxy
+{
+    padding-top:2px;
+    padding-bottom:4px;
+}
+.si-grid-allowsort,
+.si-grid-sortIcon
+{
+    margin-left:4px;
+}
+
+/* treegrid & tree
+==========================================*/
+.si-tree-nodetitle,
+.si-tree-node-ecicon,
+.si-tree-indent
+{         
+    height:25px;
+}
+.si-tree-nodeshow
+{
+    padding:2px 4px 1px 3px;
+}
+.si-tree-node-hover .si-tree-nodeshow,
+.si-tree-selectedNode .si-tree-nodeshow
+{
+    padding:1px 3px 0px 2px;
+}
+.si-tree-nodetext
+{
+    padding-left:2px;
+}
+.si-tree-checkbox
+{
+    margin-left:2px;
+    margin-right:2px;
+}
+
+/* pager
+==========================================*/
+.si-pager
+{
+    height:26px;
+    line-height:26px;
+    padding:4px 8px 4px 6px;   
+}
+body .si-pager-num
+{
+    height:20px;
+    line-height:20px;
+}
+
+/* toolbar
+==========================================*/
+.si-toolbar
+{
+    padding:4px;  
+}
+
+/* tools
+==========================================*/
+.si-tools span
+{
+    margin-left:4px;
+}
+
+/* panel
+==========================================*/
+.si-panel-header-inner
+{	
+    padding:8px 8px 8px 10px;
+    font-size:14px;
+}
+.si-panel .si-panel-icon
+{
+    margin-right:6px;
+}
+.si-panel .si-tools
+{
+    top:10px;
+    right:8px;
+}
+.si-panel-body
+{
+    padding:6px;
+}
+.si-panel-toolbar,
+.si-panel-footer
+{
+    /*padding:4px;*/
+}
+
+/* layout
+==========================================*/
+.si-layout
+{
+    font-size:13px;
+}
+.si-layout-region-header,
+.si-layout-proxy
+{
+    height:32px;
+    line-height:32px;
+}
+.si-layout-proxy
+{
+    width:32px;
+}
+.si-layout-region-header .si-tools,
+.si-layout-proxy .si-tools
+{
+    top:8px;
+    right:12px;
+}
+.si-layout-proxy-text
+{
+    left:4px;
+    font-size:13px;
+}
+
+/* outlookbar
+==========================================*/
+.si-outlookbar
+{        
+    font-size:14px;
+}
+.si-outlookbar-groupHeader
+{
+    line-height:18px;
+    padding:7px 25px 7px 8px;
+}
+.si-outlookbar-groupTitle
+{
+    padding-left:4px;
+}
+.si-outlookbar-groupHeader .si-tools
+{   
+    top:7px;
+    right:8px;    
+}
+
+/* menu
+==========================================*/
+.si-menu
+{  
+    font-size:13px; 
+}
+.si-menuitem-inner
+{
+    padding:2px 22px 2px 28px;   
+}
+.si-menuitem-icon
+{
+    left:6px;
+    top:4px;
+} 
+.si-menuitem-allow
+{
+    top:4px;
+    right:4px;    
+}
+.si-menu-horizontal .si-menuitem-allow
+{
+    top:2px;
+}
+.si-menu-horizontal .si-menu-inner
+{
+    padding:6px;
+}
+.si-menu-horizontal .si-menuitem-inner
+{
+    padding:2px 6px 2px 6px;
+}
+.si-menu-horizontal .si-menuitem-icon
+{
+    margin-right:2px;
+}
+
+/* tabs
+==========================================*/
+.si-tab
+{
+    padding-left:12px;
+    padding-right:12px;
+}
+.si-tab-text
+{
+    font-size:13px;
+    line-height:16px;
+    padding:4px 6px 4px 6px;    
+}
+.si-tabs-plain .si-tab-text
+{
+    line-height:18px;
+}
+.si-tab-close
+{
+    margin-top:6px;
+}
+.si-tabs-tabmenu
+{
+    top:6px;
+    right:2px;
+    width:20px;
+    height:20px;    
+    margin-right:4px;
+}
+.si-tabs-nav,
+.si-tabs-leftnav
+{
+    top:6px;
+    padding-left: 8px;
+    padding-right: 4px;
+}
+.si-tabs-leftButton, .si-tabs-rightButton
+{    
+    width:20px;
+    height:20px;
+    margin-right:4px;
+}
+.si-tabs-buttons
+{
+    padding-top:4px;
+}
+
+/* calendar
+==========================================*/
+.si-calendar,
+.si-calendar-title,
+.si-calendar-menu-month,
+.si-calendar-menu-year
+{       
+    font-size:13px;
+}
+.si-calendar-header
+{
+    height:30px;
+}
+.si-calendar-title
+{
+    top:2px;
+}
+.si-calendar-prev,
+.si-calendar-next
+{
+    top:8px;
+}
+body .si-calendar td.si-calendar-date
+{
+    line-height:16px;
+    padding:2px 4px;
+}
+body .si-calendar .si-calendar-daysheader td
+{
+    line-height:18px;
+    padding:4px;
+}
+.si-calendar-tadayButton, .si-calendar-clearButton,
+.si-calendar-okButton, .si-calendar-cancelButton
+{
+    line-height:14px;
+    padding:5px;
+    padding-left:0px;
+    padding-right:0px;    
+}
+.si-calendar-menu-year
+{
+    padding:2px 1px;
+}
+
+/* progressbar
+==========================================*/
+.si-progressbar
+{
+    height:26px;   
+}
+.si-progressbar-border
+{    
+    height:24px;    
+}
+.si-progressbar-text
+{
+    line-height:24px;
+    font-size:13px;
+}

@@ -1,0 +1,87 @@
+.mini-button
+{
+    border-radius: 2px; 
+}
+/*----------------------------------- button ----------------------------------*/
+
+.mini-button
+{
+	background:url(images/button/button.gif) repeat-x 0px 50%;
+	border:solid 1px #b5afaf;	
+    color:#222;
+}
+body a:hover.mini-button
+{
+	background:#e2f2fe url(images/button/hover.gif) repeat-x 0px 50%;
+	border:solid 1px #80a4d0;	         
+}
+body .mini-button-pressed, body a:hover.mini-button-pressed,
+body .mini-button-checked, body a:hover.mini-button-checked,
+body a.mini-button-popup, body a:hover.mini-button-popup
+{
+	background:#bacee4 url(images/button/pressed.gif) repeat-x 0px 50%;	
+	border-color:#7a9ac4;
+}
+body .mini-button-disabled, body a:hover.mini-button-disabled
+{
+    border-color:#E1E2E5;
+    color:#BABAC1;
+    background:#F8F9FA url(images/button/disabled.png) repeat-x 0 0px;       
+}
+ .mini-grid-editwrap .mini-textbox .mini-textbox-border
+{
+    background:white url(images/buttonedit/text-bg.gif) repeat-x 0px top;
+	border:solid 1px #b5b8c8;    
+}
+body .mini-grid-editwrap .mini-textbox-focus .mini-textbox-border
+{
+    border-color: #7eadd9;
+}
+
+body .mini-grid-row-selected, body .mini-grid-row-selected .mini-grid-frozenCell {
+    background: #dfe8f6;
+}
+
+body .mini-grid-editwrap .mini-buttonedit-focus .mini-buttonedit-border
+{
+    border-color: #7eadd9;
+}
+
+/*----------------------------------- buttonedit ----------------------------------*/
+
+.mini-buttonedit-border
+{
+	background:white url(images/buttonedit/text-bg.gif) repeat-x 0px top;
+	border-color:#b5b8c8;    
+}
+
+body .mini-buttonedit-focus .mini-buttonedit-border
+{
+   /** border-color: #7eadd9;**/
+}
+.mini-buttonedit-button
+{
+	background:url(images/buttonedit/btn.gif) repeat-x 0px 50%;		
+	border:#b5b8c8 1px solid;   
+	padding:0;
+}
+.mini-buttonedit-button-hover,
+.mini-buttonedit-hover .mini-buttonedit-button
+{
+    background:url(images/buttonedit/btn-hover.gif) repeat-x 0 50%;	
+	border-color:#80a4d0;
+}
+.mini-buttonedit-button-pressed,
+.mini-buttonedit-popup .mini-buttonedit-button
+{
+    background:url(images/buttonedit/btn-pressed.gif) repeat-x 0 50%;	
+	border-color:#80a4d0;
+}
+.mini-popupedit .mini-buttonedit-icon
+{
+    background:url(images/buttonedit/arrow.gif) no-repeat  1px 2px;
+}
+.mini-datepicker .mini-buttonedit-icon
+{
+    background:url(images/buttonedit/date.gif) no-repeat  1px 2px;
+}

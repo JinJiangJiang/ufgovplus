@@ -1,0 +1,193 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+}
+
+html, body, fieldset, img, iframe, abbr {
+    border: 0;
+}
+
+body{
+	line-height:normal;
+}
+.label{
+	font-size: 16px;
+	text-align:center;
+	color:#000;
+}
+
+.wf-table{
+	/**该参数容易引起IEbug必须设置**/
+	line-height: normal;
+	border-collapse: collapse;
+	border:1px solid black;
+	width:100%;
+	table-layout:fixed;
+}
+
+.wf-table tr{
+	border-width: 0;
+}
+
+.wf-table td.label{
+	background-color:#dce8ec;
+	padding:6px;
+	/**height:32px;**/
+	border:1px solid black;
+}
+
+.wf-table td.detail{
+	border:1px solid black;
+}
+
+.wf-table td.field {
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: left;
+}
+
+.wf-table td.field input,textarea{
+	color:blue;
+}
+.wf-table td.wf-title{
+	text-align:left;
+	border:0;
+	padding-bottom: 32px;
+}
+
+.mini-grid-border {
+    border: 1px solid #D6D6D6;
+    border-top: 1px solid #9f9f9f;
+    border-top: 1px solid #D6D6D6;
+    position: relative;
+}
+.mini-grid-headerCell{
+	background:none;
+}
+.label-left{
+	text-align:left !important;
+}
+h1{
+	font-size: 24pt;
+}
+.mini-textbox{
+	 width:100%;
+}
+.mini-textbox-border{
+ border:0;
+ width:100%;
+ height:100%;
+}
+.mini-textbox-input{
+	width:100%;
+	font-size: 12px;
+}
+.mini-buttonedit-input{
+	width:100%;
+	font-size: 12px;
+}
+
+.mini-buttonedit-focus{
+	 border:0;
+}
+
+.mini-textbox-readOnly input {
+	text-align:center;
+	color:grey !important;
+	width:100%;
+}
+.mini-textbox-readOnly .mini-textbox-border, .mini-textbox-readOnly .mini-buttonedit-border {
+}
+.mini-required .mini-textbox-border, .mini-required .mini-buttonedit-border {
+    background-color:#FCDD8B !important
+}
+.print-table td.label{
+    font-size: 16px;
+    font-weight:bold;
+	line-height:20px;
+	padding:0;
+	height:50px;
+	border:1px solid black;
+	text-align: center;
+}
+
+.header{
+	padding-top:10px;
+	color:black;
+	font-size: 26px;
+	text-align: left;
+	margin-bottom:10px;
+	height:50px;
+	background:#ededed;
+}
+
+.print-header{
+	color:black;
+	font-size: 26px;
+	font-weight:900;
+	text-align: center;
+	margin-bottom:10px
+}
+
+.label-2{
+	width:200px
+}
+.field{
+    font-size: 16px;
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: center;
+	color:rgb(0,0,255);
+	color:rgb(0,0,0);
+}
+.print-table{
+	line-height: normal;
+	border-collapse: collapse;
+	border:1px solid black;
+	width:930px;
+	width:100%;
+	height:470px;
+	table-layout:fixed;
+}
+
+.print-table tr{
+	border-width: 0;
+}
+
+.print-table td.label{
+	background-color:#dce8ec;
+	background-color:#FFFFFF;
+	/**padding:8px;**/
+	/**height:32px;**/
+	border:1px solid black;
+}
+
+.print-table td.detail{
+	border:1px solid black;
+}
+
+.print-table td.field input,textarea{
+	color:blue;
+}
+
+.font14{
+	font-size: 14px;
+}
+.left-align{
+	text-align: left;
+}
+td.noborder{
+	border:0;
+}
+.print-table td.wf-title{
+	text-align:left;
+	border:0;
+	padding-bottom: 32px;
+}

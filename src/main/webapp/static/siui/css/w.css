@@ -1,0 +1,174 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+}
+
+html, body, fieldset, img, iframe, abbr {
+    border: 0;
+}
+
+body{
+	line-height:normal;
+}
+.label{
+	font-size: 16px;
+	text-align:center;
+	color:#000;
+	width:15%
+}
+
+.wf-table{
+	/**该参数容易引起IEbug必须设置**/
+	line-height: normal;
+	border-collapse: collapse;
+	border:1px solid black;
+	width:100%;
+	table-layout:fixed;
+}
+
+.wf-table tr{
+	border-width: 0;
+}
+
+.wf-table td.label{
+	background-color:#dce8ec;
+	padding:6px;
+	/**height:32px;**/
+	border:1px solid black;
+}
+
+.wf-table td.detail{
+	border:1px solid black;
+}
+
+.wf-table td.field {
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: left;
+}
+
+.wf-table td.field input,textarea{
+	color:blue;
+}
+.field{
+	font-size: 14px;
+	color:rgb(0,0,255);
+	width:35%
+}
+
+.wf-table td.wf-title{
+	text-align:left;
+	border:0;
+	padding-bottom: 32px;
+}
+
+.mini-grid-border {
+    border: 1px solid #D6D6D6;
+    border-top: 1px solid #9f9f9f;
+    border-top: 1px solid #D6D6D6;
+    position: relative;
+}
+.mini-grid-headerCell{
+	background:none;
+}
+.label-left{
+	text-align:left !important;
+}
+h1{
+	font-size: 24pt;
+}
+.mini-textbox{
+	 width:100%;
+}
+.mini-textbox-border{
+ border:0;
+ width:100%;
+ height:100%;
+}
+.mini-textbox-input{
+	width:100%;
+	font-size: 12px;
+}
+.mini-buttonedit-input{
+	width:100%;
+	font-size: 12px;
+}
+
+.mini-buttonedit-focus{
+	 border:0;
+}
+
+.mini-textbox-readOnly input {
+	text-align:center;
+	color:grey !important;
+	width:100%;
+}
+.mini-textbox-readOnly .mini-textbox-border, .mini-textbox-readOnly .mini-buttonedit-border {
+}
+.mini-required .mini-textbox-border, .mini-required .mini-buttonedit-border {
+    background-color:#FCDD8B !important
+}
+.wfv-table td.label{
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: center;
+	width:13%;
+}
+.wfv-table td.field{
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: left;
+	width:20%;
+}
+.wfv-table{
+	line-height: normal;
+	border-collapse: collapse;
+	border:1px solid black;
+	width:100%;
+	table-layout:fixed;
+}
+
+.wfv-table tr{
+	border-width: 0;
+}
+
+.wfv-table td.label{
+	background-color:#dce8ec;
+	padding:8px;
+	/**height:32px;**/
+	border:1px solid black;
+}
+
+.wfv-table td.detail{
+	border:1px solid black;
+}
+
+.wfv-table td.field {
+	padding:0;
+	/**height:32px;**/
+	border:1px solid black;
+	text-align: center;
+}
+
+.wfv-table td.field input,textarea{
+	color:blue;
+}
+.field{
+	font-size: 14px;
+	color:rgb(0,0,255);
+	width:35%
+}
+
+.wfv-table td.wf-title{
+	text-align:left;
+	border:0;
+	padding-bottom: 32px;
+}
